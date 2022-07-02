@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/brenndha-cabral/pokemons-api#readme",
   "dependencies": {
+    "chai": "^4.3.6",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-validator": "^6.14.2",
