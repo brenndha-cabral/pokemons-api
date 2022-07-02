@@ -35,7 +35,7 @@ A [documentação](#documentacao) te ajudará a entender o projeto com maior cla
   <img title="Docker" alt="Docker" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
    <img title="PostgreSQL" alt="PostgreSQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
    <img title="Mocha" alt="Mocha" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mocha/mocha-plain.svg">
-   <img title="Chai" alt="Chai" height="30" width="40" src="./public/assets/images/chai.png">
+   <img title="Chai" alt="Chai" height="30" width="30" src="./public/assets/images/chai.png">
 </div>
 
 <h2 id="decisoes">Decisões</h2>
