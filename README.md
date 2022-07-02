@@ -1,7 +1,7 @@
 # :construction: Projeto API de Pokémon :cyclone:
 
 <div align="center">
- <img src="./public/assets/images/pokemon-banner.png" alt="Ilustração do pikachu e a logotipo do pokemón" width="1000">
+ <img src="./public/assets/images/pokemon-banner.jpeg" alt="Ilustração do pikachu e a logotipo do pokemón" width="1000">
 </div>
 
 <h2>Índice</h2>
@@ -10,6 +10,7 @@
  :round_pushpin: [Tecnologias](#tecnologias)<br />
  :round_pushpin: [Decisões](#decisoes)<br />
  :round_pushpin: [Orientações](#orientacoes)<br />
+ :round_pushpin: [Testes](#testes)<br />
  :round_pushpin: [Usabilidade](#usabilidade)<br />
  :round_pushpin: [Documentação](#documentacao)<br />
  :round_pushpin: [Referências](#referencias)<br />
@@ -33,6 +34,8 @@ A [documentação](#documentacao) te ajudará a entender o projeto com maior cla
   <img title="JWT" alt="JWT" height="30" width="30" src="./public/assets/images/jwt.png">
   <img title="Docker" alt="Docker" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
    <img title="PostgreSQL" alt="PostgreSQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
+   <img title="Mocha" alt="Mocha" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mocha/mocha-plain.svg">
+   <img title="Chai" alt="Chai" height="30" width="40" src="./public/assets/images/chai.png">
 </div>
 
 <h2 id="decisoes">Decisões</h2>
@@ -98,6 +101,10 @@ A [documentação](#documentacao) te ajudará a entender o projeto com maior cla
 
 </details>
 
+<h2 id="testes">Testes</h2>
+
+> :information_source:
+
 
 <h2 id="usabilidade">Usabilidade</h2>
 
@@ -113,3 +120,8 @@ _Obs: Veja a seção de [documentação](#documentacao) para entender melhor com
 <h2 id="documentacao">Documentação</h2>
 
 > :information_source: Acesse [aqui](https://github.com/brenndha-cabral/blogs-api/wiki) a documentação deste projeto onde constam mais detalhes sobre os relacionamentos e entidades elaborados, arquitetura de software utilizada e as rotas possíveis para consumo.
+
+
+<h2 id="referencias">Referências</h2>
+
+> :information_source: Este projeto foi inspirado no teste para o cargo de Back-end da empresa [RedFox](https://www.linkedin.com/company/redfoxdigitalsolutions/?originalSubdomain=br). Para acessar o repositório original, clique [aqui](https://github.com/RedFoxTech/vaga-backend-teste).
