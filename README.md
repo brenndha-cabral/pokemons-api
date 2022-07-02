@@ -17,10 +17,11 @@
  
 <h2 id="sobre">Sobre</h2>
 
-#### Este projeto é uma aplicação em `Node.js` usando o pacote `Sequelize` para fazer um CRUD de Pokémons :fire:
+#### Esta é uma aplicação em `Node.js` usando o pacote `Sequelize` para fazer um CRUD de Pokémons :fire:
 
-Foi desenvolvida uma API seguindo os princípios do REST e que conecta ao banco de dados `postgreSQL` através do [Supabase](https://supabase.com/).
+Foi desenvolvida uma API seguindo os princípios do REST e que conecta ao banco de dados `postgreSQL` através do [supabase](https://supabase.com/).
 Para acessar a API, é necessário que a pessoa usuária faça login com suas credencias e isso será autenticado e autorizado via JWT com a geração de token.
+É possível também que a pessoa usuária possa se cadastrar, podendo utilizar assim a API mediante login.
 
 A [documentação](#documentacao) te ajudará a entender o projeto com maior clareza e assertividade :book:
 <br />
@@ -74,15 +75,13 @@ A [documentação](#documentacao) te ajudará a entender o projeto com maior cla
 
 ### 👉 Com Docker
 
-> :information_source: Rode os serviços `node` e `db` com o comando `docker-compose up -d`.
+> :information_source: Rode o serviço `node` com o comando `docker-compose up`.
 
-- Lembre-se de parar o `postgresql` se estiver usando localmente na porta padrão (`5432`), ou adapte o docker-compose caso queria fazer uso da aplicação em containers;
+- Esse serviço irá inicializar um container chamado `pokemons_api`;
 
-- Esses serviços irão inicializar um container chamado `blogs_api` e outro chamado `blogs_api_db`;
+- A partir daqui você pode acessar o container `pokemons_api` via CLI ou abri-lo no seu editor;
 
-- A partir daqui você pode acessar o container `blogs_api` via CLI ou abri-lo no seu editor;
-
-> :information_source: Use o comando `docker exec -it blogs_api bash`.
+> :information_source: Use o comando `docker exec -it pokemons_api bash`.
 
 - Ele te dará acesso ao terminal interativo do container criado pelo docker-compose, que está rodando em segundo plano.
 
@@ -94,6 +93,8 @@ A [documentação](#documentacao) te ajudará a entender o projeto com maior cla
 
 
 ### 👉 Sem Docker
+
+> :information_source: É necessário que você tenha o `node` instalado em sua máquina.
 
 > :information_source: Instale as dependências com `npm install`.
 
@@ -110,11 +111,13 @@ A [documentação](#documentacao) te ajudará a entender o projeto com maior cla
 
 _Obs: Veja a seção de [documentação](#documentacao) para entender melhor como funcionam as rotas._
 
-> :information_source: Após rodar a aplicação, você deverá acessar através de `http://localhost:{porta}/{rota}` 
+> :information_source: Após rodar a aplicação localmente, você deverá acessar através de `http://localhost:{porta}/{rota}` 
 
 - Algumas sugestões de clientes:
 
   :bulb: [HTTPie](https://httpie.io/) | :bulb: [Postman](https://www.postman.com/) | :bulb: [Insomnia](https://insomnia.rest/) | :bulb: [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+  
+> :information_source: Para acessar o deploy da aplicação, clique [aqui]().
 
 
 <h2 id="documentacao">Documentação</h2>
