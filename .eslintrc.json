@@ -1,0 +1,8 @@
+{
+  "root": true,
+  "extends": ["airbnb-base"],
+  "rules": {
+    "indent": ["error", 2],
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
+  }
+}
