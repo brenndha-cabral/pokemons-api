@@ -1,0 +1,20 @@
+{
+  "name": "pokemons-api",
+  "version": "1.0.0",
+  "description": "Neste projeto foi desenvolvida uma API a partir de um excel que se conecta a um banco de dados para a concentração de Pokemóns",
+  "main": "scr/api/api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenndha-cabral/pokemons-api.git"
+  },
+  "keywords": ["nodejs", "javascript", "heroku", "docker", "postgres", "jwt", "express", "deploy", "nodemon", "api-rest"],
+  "author": "Brenndha Cabral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brenndha-cabral/pokemons-api/issues"
+  },
+  "homepage": "https://github.com/brenndha-cabral/pokemons-api#readme"
+}
