@@ -4,7 +4,11 @@
   "description": "Neste projeto foi desenvolvida uma API a partir de um excel que se conecta a um banco de dados para a concentração de Pokemóns",
   "main": "scr/api/api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests",
+    "prestart": "npx sequelize-cli db:migrate --env production",
+    "start": "nodemon .",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json .",
+    "lint-fix": "npm run lint -- --fix"
   },
   "repository": {
     "type": "git",
@@ -37,7 +41,8 @@
     "jsonwebtoken": "^8.5.1",
     "mocha": "^10.0.0",
     "sequelize": "^6.21.2",
-    "sequelize-cli": "^6.4.1"
+    "sequelize-cli": "^6.4.1",
+    "sinon": "^14.0.0"
   },
   "devDependencies": {
     "eslint": "^8.19.0",
