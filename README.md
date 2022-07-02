@@ -10,6 +10,7 @@
  :round_pushpin: [Tecnologias](#tecnologias)<br />
  :round_pushpin: [Decisões](#decisoes)<br />
  :round_pushpin: [Orientações](#orientacoes)<br />
+ :round_pushpin: [Scripts](#scripts)<br />
  :round_pushpin: [Testes](#testes)<br />
  :round_pushpin: [Usabilidade](#usabilidade)<br />
  :round_pushpin: [Documentação](#documentacao)<br />
@@ -101,6 +102,10 @@ A [documentação](#documentacao) te ajudará a entender o projeto com maior cla
 > :information_source: Rode a aplicação com `npm start` na porta `3000` pelo `nodemon`, ou adapte o `.env` caso sinta necessidade.
 
 </details>
+
+<h2 id="scripts">Scripts</h2>
+
+> :information_source:
 
 <h2 id="testes">Testes</h2>
 
