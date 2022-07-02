@@ -10,11 +10,25 @@
     "type": "git",
     "url": "git+https://github.com/brenndha-cabral/pokemons-api.git"
   },
-  "keywords": ["nodejs", "javascript", "heroku", "docker", "postgres", "jwt", "express", "deploy", "nodemon", "api-rest"],
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "heroku",
+    "docker",
+    "postgres",
+    "jwt",
+    "express",
+    "deploy",
+    "nodemon",
+    "api-rest"
+  ],
   "author": "Brenndha Cabral",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/brenndha-cabral/pokemons-api/issues"
   },
-  "homepage": "https://github.com/brenndha-cabral/pokemons-api#readme"
+  "homepage": "https://github.com/brenndha-cabral/pokemons-api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
