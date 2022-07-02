@@ -1,4 +1,4 @@
-# :construction: Projeto API de Pokémon :cyclone:
+# :construction: Projeto API de Pokémons :cyclone:
 
 <div align="center">
  <img src="./public/assets/images/pokemon-banner.jpeg" alt="Ilustração do pikachu e a logotipo do pokemón" width="1000">
