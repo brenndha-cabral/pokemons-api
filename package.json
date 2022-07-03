@@ -2,7 +2,7 @@
   "name": "pokemons-api",
   "version": "1.0.0",
   "description": "Neste projeto foi desenvolvida uma API a partir de um excel que se conecta a um banco de dados para a concentração de Pokemóns",
-  "main": "scr/api/api.js",
+  "main": "src/api.js",
   "scripts": {
     "test": "mocha tests",
     "prestart": "npx sequelize-cli db:migrate",
