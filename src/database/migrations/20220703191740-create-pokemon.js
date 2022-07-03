@@ -24,31 +24,15 @@ module.exports = {
         field: 'evolution_stage',
       },
       envolved: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BOOLEAN,
       },
       familyId: {
         type: Sequelize.INTEGER,
         field: 'family_id',
       },
       crossGen: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BOOLEAN,
         field: 'cross_gen',
-      },
-      type1: {
-        type: Sequelize.STRING,
-        field: 'type_1',
-      },
-      type2: {
-        type: Sequelize.STRING,
-        field: 'type_2',
-      },
-      weather1: {
-        type: Sequelize.STRING,
-        field: 'weather_1',
-      },
-      weather2: {
-        type: Sequelize.STRING,
-        field: 'weather_2',
       },
       statTotal: {
         type: Sequelize.INTEGER,
@@ -70,10 +54,10 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       spawns: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BOOLEAN,
       },
       regional: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BOOLEAN,
       },
       raidable: {
         type: Sequelize.INTEGER,
@@ -82,20 +66,20 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       shiny: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BOOLEAN,
       },
       nest: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BOOLEAN,
       },
       new: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BOOLEAN,
       },
       notGettable: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BOOLEAN,
         field: 'not_gettable',
       },
       futureEnvolve: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BOOLEAN,
         field: 'future_envolve',
       },
       combatePowerLevel40: {
@@ -105,6 +89,14 @@ module.exports = {
       combatePowerLevel39: {
         type: Sequelize.INTEGER,
         field: 'cp_level_39',
+      },
+      createdAt: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.NOW,
+      },
+      updatedAt: {
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.NOW,
       },
     });
   },
