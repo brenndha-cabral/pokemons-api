@@ -5,7 +5,7 @@
   "main": "scr/api/api.js",
   "scripts": {
     "test": "mocha tests",
-    "prestart": "npx sequelize-cli db:migrate --env production",
+    "prestart": "npx sequelize-cli db:migrate",
     "start": "nodemon .",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json .",
     "lint-fix": "npm run lint -- --fix"
