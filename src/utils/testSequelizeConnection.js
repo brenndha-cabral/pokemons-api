@@ -1,6 +1,6 @@
 require('dotenv').config();
 const Sequelize = require('sequelize');
-const configToTest = require('../src/database/config/config')[process.env.NODE_ENV];
+const configToTest = require('../database/config/config')[process.env.NODE_ENV];
 
 const sequelize = new Sequelize(configToTest);
 
