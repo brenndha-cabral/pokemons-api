@@ -24,3 +24,8 @@ module.exports = {
     await queryInterface.dropTable('Types');
   },
 };
+
+// BlogPost.associate = (models) => {
+//   BlogPost.belongsTo(models.User,
+//     { foreignKey: 'userId', as: 'user' });
+// };
